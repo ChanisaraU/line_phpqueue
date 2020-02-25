@@ -1,0 +1,45 @@
+  table {
+    float: left;
+    border-collapse: collapse;
+    border: 2px solid #6699AA;
+    align : center ;
+  }
+  .button {
+    border-radius: 20px ;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #6699AA;
+  }
+
+  .button1:hover {
+    background-color: #88DDBB;
+    color: white;
+  }
+  .table {
+      width: 100%;
+  }
+  th, td {
+      /* border: 1px solid black; */
+      padding: 10px;
+      border-collapse: collapse;
+      border-bottom: 2px solid #6699AA;
+      text-align: center;
+  }
+  h3 {
+  font-size: 15px;
+  font-style: oblique
+  color: #88BBAA;
+}
