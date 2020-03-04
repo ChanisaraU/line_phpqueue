@@ -2,7 +2,7 @@
 date_default_timezone_set('Asia/Bangkok');
 $servername = "localhost";
 $username = "root";
-$password = "root1234";
+$password = "4sCNfcnjP9dwcfwM";
 $dbname = "queue";
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
