@@ -262,10 +262,7 @@ if (isset($request4["events"][0]) && $request4["events"][0]["message"]["type"] =
     $arrayPostData['messages'][0]['type'] = "text";
     $arrayPostData['messages'][0]['text'] = "ใช่ที่ " .   $address_text . " หรือไม่ ?";
     replyMsg($arrayHeader,$arrayPostData);
-  // save_to_database() << do
-  // send_line("ต้องการที่นี่ไหม") << do
-  // echo "xxx";
-
+    
 }else if (isset($request4["queryResult"]["queryText"])) {
   if ($request4["queryResult"]["queryText"]=='คิว' || $request4["queryResult"]["queryText"]=='ยกเลิก') {
     processMessage($request4);
