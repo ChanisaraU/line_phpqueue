@@ -16,7 +16,7 @@ app.post('/webhook', (req, res) => {
   let msg_type = req_json.events[0].message.type;
   if(msg_type === "text"){
     request.post({
-      uri: "https://bots.dialogflow.com/line/3f782dfd-3876-483a-a09d-3b17a3adcb04/webhook",
+      uri: "https://dialogflow.cloud.google.com/v1/integrations/line/webhook/c541153c-8cc0-44a0-b324-fbba504df118",
       headers: req.headers,
       body: JSON.stringify(req.body)
     });
